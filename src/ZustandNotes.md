@@ -135,13 +135,9 @@ updateExpense(updatedExpense);
 useExpenseStore((s) => s.getFilteredExpenses())
 لماذا؟
 لأن:
-
 ترجع array جديدة كل مرة
-
 React يعتقد state تغير
-
 re-render لا نهائي
-
 infinite loop
 
 ✅ الصحيح
